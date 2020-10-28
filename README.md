@@ -38,6 +38,8 @@ debian8 - Base Debian 8 (Jessie)
 
 debian9 - Base Debian 9 (Stretch)
 
+debian10 - Base Debian 10 (Buster)
+
 ubuntu1404 - Base Ubuntu 14.04 OS
 
 ubuntu1504 - Base Ubuntu 15.04 OS
