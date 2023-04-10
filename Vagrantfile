@@ -24,6 +24,9 @@ Vagrant.configure(2) do |config|
   config.vm.define 'centos8' do |centos8|
     centos8.vm.box = 'centos/8'
   end
+  config.vm.define 'centos9' do |centos9|
+    centos9.vm.box = 'almalinux/centos-stream-9'
+  end
   config.vm.define 'debian8' do |debian8|
     debian8.vm.box = 'debian/jessie64'
   end
