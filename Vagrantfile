@@ -36,6 +36,12 @@ Vagrant.configure(2) do |config|
   config.vm.define 'debian10' do |debian9|
     debian9.vm.box = 'debian/buster64'
   end
+  config.vm.define 'fedoralatest' do |fedora|
+    fedora.vm.box = 'generic/fedora35'
+  end
+  config.vm.define 'rawhide' do |rawhide|
+    rawhide.vm.box = 'alvistack/fedora-rawhide'
+  end
   config.vm.define 'ubuntu1404' do |ubuntu1404|
     ubuntu1404.vm.box = 'ubuntu/trusty64'
   end
