@@ -20,6 +20,14 @@ To connect to a particular VM:
 
 >NOTE: for Windows, recommend RDP: `$ vagrant rdp winserv2012std`
 
+VirtualBox Guest Additions
+==========================
+
+If you need to access host files from within the Vagrant VM, install the
+"VirtualBox Extension Pack" from the VirtualBox download page and then install the
+Vagrant plugin with:
+`$ vagrant plugin install vagrant-vbguest`
+
 
 VM descriptions
 ===============
