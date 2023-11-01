@@ -48,17 +48,25 @@ debian9 - Base Debian 9 (Stretch)
 
 debian10 - Base Debian 10 (Buster)
 
-ubuntu1404 - Base Ubuntu 14.04 OS
+rocky8 - Rocky Linux 8 (RHEL8 rebuild)
 
-ubuntu1504 - Base Ubuntu 15.04 OS
+rocky9 - Rocky Linux 9 (RHEL9 rebuild)
 
-ubuntu1604 - Base Ubuntu 16.04 OS
+ubuntu1404 - Base Ubuntu 14.04 OS (Trusty)
 
-ubuntu1604dev - Ubuntu 16.04 OS with Gnome desktop + Atom/VSCode IDEs + Git
+ubuntu1404_puppet - Ubuntu 14.04 OS with Puppet installed (Trusty)
 
-ubuntu1804 - Base Ubuntu 18.04 OS
+ubuntu1504 - Base Ubuntu 15.04 OS (Vivid)
 
-ubuntu2004 - Base Ubuntu 20.04 OS
+ubuntu1604 - Base Ubuntu 16.04 OS (Xenial)
+
+ubuntu1604dev - Ubuntu 16.04 OS with Gnome desktop + Atom/VSCode IDEs + Git (Xenial)
+
+ubuntu1804 - Base Ubuntu 18.04 OS (Bionic)
+
+ubuntu2004 - Base Ubuntu 20.04 OS (Focal)
+
+ubuntu2204 - Base Ubuntu 22.04 OS (Jammy)
 
 winserv2012std - Windows Server 2k12 R2 Standard Edition
 

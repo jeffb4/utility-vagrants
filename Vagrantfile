@@ -42,6 +42,12 @@ Vagrant.configure(2) do |config|
   config.vm.define 'rawhide' do |rawhide|
     rawhide.vm.box = 'alvistack/fedora-rawhide'
   end
+  config.vm.define 'rocky8' do |rocky8|
+    rocky8.vm.box = 'openlogic/rockylinux-8'
+  end
+  config.vm.define 'rocky9' do |rocky9|
+    rocky9.vm.box = 'openlogic/rockylinux-9'
+  end
   config.vm.define 'ubuntu1404' do |ubuntu1404|
     ubuntu1404.vm.box = 'ubuntu/trusty64'
   end
